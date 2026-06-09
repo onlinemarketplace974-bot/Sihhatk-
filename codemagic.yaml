@@ -1,0 +1,15 @@
+workflows:
+  ios-workflow:
+    name: iOS Workflow
+    instance_type: mac_mini_m1
+
+    environment:
+      node: 20
+
+    scripts:
+      - npm install
+      - npm run build
+      - npx cap sync ios
+
+    artifacts:
+      - ios/**/*.ipa
