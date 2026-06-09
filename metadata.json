@@ -1,0 +1,6 @@
+{
+  "name": "صحتك | Sihhatk",
+  "description": "An interactive, fully responsive AI Calorie & Nutrition Tracker with bilingual (English/Arabic) support, featuring real-time meal image analysis and personalized health suggestions.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
